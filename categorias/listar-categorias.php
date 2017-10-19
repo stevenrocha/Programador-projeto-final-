@@ -1,5 +1,5 @@
 <?php
-	require_once 'conexao.php';
+	require_once('../conexao/conexao.php');
 	//busca linhas da tabela tipos
 	$sql = "SELECT * FROM categorias ORDER BY nome";
 	$resultado = mysqli_query($conexao, $sql);
@@ -16,7 +16,7 @@
 <body>
 	<header class="container">
 		<div class="row">
-			<a href="index.php">
+			<a href="../index.php">
 				<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
 			</a>
 			<h3>Listar Categorias no Sistema</h3>

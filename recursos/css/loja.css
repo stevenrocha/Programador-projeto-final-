@@ -1,0 +1,9 @@
+/* header do site */
+
+header {
+	background: #007FFF;
+	padding: 10px;
+}
+.botao-new {
+	margin-bottom: 20px;
+}
